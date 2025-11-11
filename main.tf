@@ -6,7 +6,7 @@ terraform {
     }
   }
 }
-
+ 
 provider "azurerm" {
   features {}
   subscription_id = "5be145b3-504f-4936-90e8-9260c2e5806f"
@@ -25,6 +25,7 @@ resource "azurerm_resource_group" "example" {
   name     = "RG4"
   location = "westeurope"
 }
+
 
 
 
